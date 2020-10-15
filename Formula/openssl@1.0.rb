@@ -33,7 +33,7 @@ class OpensslAT10 < Formula
       no-zlib
       shared
       enable-cms
-      darwin64-x86_64-cc
+      linux-x86_64
       enable-ec_nistp_64_gcc_128
     ]
     system "perl", "./Configure", *args
